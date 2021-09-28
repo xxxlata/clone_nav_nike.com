@@ -1,47 +1,30 @@
-.top_bar {
-background-color: rgba(223, 223, 223, 0.27);
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.top{
+    background-color: rgba(223, 223, 223, 0.27);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin:0.1px;
 }
-
-.top_img{
+.top_svg{
     padding: 0px 38px 0px 36px;
 }
 
-.jo {    
-    width:30px;
-    height: 30px;
-}
-
-.con {
-    height: 35px;
-    width: 35px;
+.top_svg :last-child{
+    margin-left: 10px;
 }
 
 .top_nav {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 5px;
+    margin: 5px 30px 0 0;
+    font-size: 12px;
 }
 
-.top_nav :first-child {
-    margin-right: 10px;
-    padding-right: 5px ;
-    color: black;
-    height: 20px;  
-}
-
-.top_nav :nth-child(2){
-    margin-right: 10px;
-    color: black;
-    height: 20px;
-    padding-right: 5px; 
-}
-
-.top_nav:last-child {
-    padding-right: 38px;
+.top_nav a{
+    margin: 0 10px;
     color: black;
 }
 
@@ -52,46 +35,73 @@ background-color: rgba(223, 223, 223, 0.27);
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
 .menu > a {
     color: black;
-    font-size: 20px;
+    font-size: 16px;
     margin:0px 10px;
 }
 
-.main_logo > img {
+.main_logo > svg {
     margin: 30px;
     width: 95px;
     height: 30px;
 }
 
 .search{
-    display: flex;    
+    display: flex; 
+    align-items: center;   
     margin-right: 30px;
-}
-
-.search input{
-    margin-right: 30px;
-    font-size: 25px;
-    background-color: whitesmoke ;
-    
-}
-
-.search button{
-    border: none;
-}
-
-.search > a {
-    margin: 0px 5px;
-    color: black;
 }
 
 .search_zone{
-    border-radius: 30px;
+    position: relative;
+    border-radius: 100px;
+    height: 40px;
+    width: 140px;
     background-color: whitesmoke;
 }
+
+.search input{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    width: 70px;
+    font-size: 16px;
+    background-color: whitesmoke ;
+    border: none;
+}
+
+.search button {
+    position: absolute;
+    bottom: 5px;
+    right: 50px;
+    border: none;
+}
+.search button > i{
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+}
+
+.search > a {
+    margin: 0 10px 0 10px ;
+    color: black;
+}
+.event_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(223, 223, 223, 0.27);
+    height: 60px;
+    width: 100%;
+}
+.event_box > span{
+    font-size: 14px;
+}
+
 
 @media screen and (max-width: 1024px) {
 
