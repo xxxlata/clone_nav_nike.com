@@ -86,8 +86,8 @@ body{
     right: 50px;
 }
 
-.search > a {
-    margin: 0 10px 0 10px ;
+.top_a a {
+    margin: 0 0 0 10px ;
     color: black;
 }
 .event_box{
@@ -101,15 +101,37 @@ body{
 .event_box > span{
     font-size: 14px;
 }
-
-
+@media screen and (min-width:790px){
+    .search_i{
+        display: none;
+    }
+    .bars_i{
+        display: none;
+    }
+}
+@media screen and (max-width: 1163px) {
+    .menu :last-child{
+        display: none;
+    }
+}
 @media screen and (max-width: 1024px) {
-
+    .menu :nth-child(5){
+        display: none;
+    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 794px) {
     .menu {
         display : none;
+    }
+    .search_zone{
+        display: none;
+    }
+    .heart_i {
+        display: none;
+    }
+    .top{
+        display: none;
     }
 
     
