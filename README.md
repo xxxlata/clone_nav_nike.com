@@ -23,3 +23,4 @@ and 키워드는 앞뒤 조건이 모두 사실일때를 의미하고 screen 타
 모든 조건문에는 min-, max- 옵션을 줄 수 있다. (ex : min-width , max-width)
 min-옵션은 이상일때를 의미하고 max-옵션은 이하일때를 의미한다.
 
+
