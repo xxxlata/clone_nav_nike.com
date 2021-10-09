@@ -24,3 +24,14 @@ and 키워드는 앞뒤 조건이 모두 사실일때를 의미하고 screen 타
 min-옵션은 이상일때를 의미하고 max-옵션은 이하일때를 의미한다.
 
 
+### 원본화면
+![src](screenshot/nike_1496x342_full.png?raw=true)
+
+
+![src](screenshot/nike_414x1024_mob.png?raw=true)
+
+### pc화면
+![src](screenshot/nike_full_clone.png?raw=true)
+
+### 모바일화면
+![src](screenshot/nike_414x1024_clone.png?raw=true)
